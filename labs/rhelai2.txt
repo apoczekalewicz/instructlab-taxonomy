@@ -1,0 +1,20 @@
+cd ~/instructlab
+source venv/bin/activate
+pip3 install git+https://github.com/instructlab/instructlab.git@v0.17.1
+ilab config init
+ilab model download --repository instructlab/granite-7b-lab-GGUF --filename=granite-7b-lab-Q4_K_M.gguf
+ilab model download --repository instructlab/merlinite-7b-lab-GGUF --filename=merlinite-7b-lab-Q4_K_M.gguf
+ilab model serve --model-path models/granite-7b-lab-Q4_K_M.gguf
+
+ilab model chat -m models/granite-7b-lab-Q4_K_M.gguf
+
+--
+
+train:
+
+ilab model serve --model-path models/merlinite-7b-lab-Q4_K_M.gguf
+ilab data generate --num-instructions 5
+
+ilab model serve --model-path models/ggml-ilab-pretrained-Q4_K_M.gguf
+
+
