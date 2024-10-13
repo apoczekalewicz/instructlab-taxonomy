@@ -3,7 +3,10 @@ created_by: apoczekalewicz
 domain: cybersecurity
 seed_examples:
   - context: |
-      Mr. Big Hacker was born on June 1, 1985, in San Francisco. He was captivated by computers from a young age, receiving a Commodore 64 for his 10th birthday. By age 12, he hacked into his local school’s computer system, igniting a passion for technology. After graduating high school, he enrolled in Stanford University in 2003 and began delving into hacktivism.
+      Mr. Big Hacker was born on June 1, 1985, in San Francisco. He was captivated by computers from a
+      young age, receiving a Commodore 64 for his 10th birthday. By age 12, he hacked into his local
+      school’s computer system, igniting a passion for technology. After graduating high school, he
+      enrolled in Stanford University in 2003 and began delving into hacktivism.
     questions_and_answers:
       - question: |
           When was Mr. Big Hacker born?
@@ -18,7 +21,11 @@ seed_examples:
         answer: |
           At age 12, he hacked into his local school’s computer system.
   - context: |
-      In 2005, Mr. Big Hacker gained notoriety for a significant breach of a major corporation’s database. By 2007, he established himself on hacker forums under the alias "Mr. Big Hacker." His involvement in a high-profile government agency hack in 2009 led to a nationwide conversation about cybersecurity. He co-founded a cybersecurity startup in 2014 and published his book, "The Art of Ethical Hacking," in 2016.
+      In 2005, Mr. Big Hacker gained notoriety for a significant breach of a major corporation’s
+      database. By 2007, he established himself on hacker forums under the alias "Mr. Big Hacker." His
+      involvement in a high-profile government agency hack in 2009 led to a nationwide conversation
+      about cybersecurity. He co-founded a cybersecurity startup in 2014 and published his book, "The
+      Art of Ethical Hacking," in 2016.
     questions_and_answers:
       - question: |
           What major event occurred in 2005 for Mr. Big Hacker?
@@ -33,12 +40,16 @@ seed_examples:
         answer: |
           He published it in 2016.
   - context: |
-      Mr. Big Hacker became a sought-after speaker at cybersecurity conferences and established a community for ethical hackers in 2021. His podcast discussing cybersecurity trends gained a large following. Despite facing legal challenges in 2022 after a controversial hack, he was featured in a Netflix documentary on cybercrime, advocating for user privacy rights.
+      Mr. Big Hacker became a sought-after speaker at cybersecurity conferences and established a
+      community for ethical hackers in 2021. His podcast discussing cybersecurity trends gained a large
+      following. Despite facing legal challenges in 2022 after a controversial hack, he was featured in
+      a Netflix documentary on cybercrime, advocating for user privacy rights.
     questions_and_answers:
       - question: |
           What role did Mr. Big Hacker play in the cybersecurity community?
         answer: |
-          He became a sought-after speaker at cybersecurity conferences and established a community for ethical hackers.
+          He became a sought-after speaker at cybersecurity conferences and established a community
+          for ethical hackers.
       - question: |
           What did Mr. Big Hacker do in 2021?
         answer: |
@@ -48,7 +59,10 @@ seed_examples:
         answer: |
           The documentary highlighted his advocacy for user privacy rights.
   - context: |
-      Today, Mr. Big Hacker continues to research emerging threats and develop training programs for organizations. He balances his personal life with privacy, residing in the Bay Area with his partner and two cats. His future goal is to create a more secure digital environment, leaving a legacy of positive change in cybersecurity.
+      Today, Mr. Big Hacker continues to research emerging threats and develop training programs for
+      organizations. He balances his personal life with privacy, residing in the Bay Area with his
+      partner and two cats. His future goal is to create a more secure digital environment, leaving a
+      legacy of positive change in cybersecurity.
     questions_and_answers:
       - question: |
           What does Mr. Big Hacker focus on today?
@@ -63,9 +77,11 @@ seed_examples:
         answer: |
           His goal is to create a more secure digital environment for all.
 document_outline: |
-  A biography of Mr. Big Hacker detailing his early life, hacking career, contributions to cybersecurity, and current endeavors.
+  A biography of Mr. Big Hacker detailing his early life, hacking career, contributions to cybersecurity,
+  and current endeavors.
 document:
   repo: https://github.com/apoczekalewicz/instructlab-taxonomy
   commit: 4aeeeca56d92034cf9e7e56149f41d67b3fc8ebd
   patterns:
     - mrbighacker/mrbighacker.txt.md
+
