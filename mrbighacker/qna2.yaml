@@ -1,4 +1,3 @@
-version: 3
 created_by: apoczekalewicz
 domain: cybersecurity
 seed_examples:
@@ -27,10 +26,9 @@ seed_examples:
     answer: He resides in the Bay Area with his partner and two cats.
   - question: What is Mr. Big Hacker's future goal?
     answer: His goal is to create a more secure digital environment for all.
-
+task_description: mr big hacker
 document:
   repo: https://github.com/apoczekalewicz/instructlab-taxonomy
   commit: 4aeeeca56d92034cf9e7e56149f41d67b3fc8ebd
   patterns:
     - mrbighacker/mrbighacker.txt.md
-
