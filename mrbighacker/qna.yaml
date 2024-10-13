@@ -68,4 +68,4 @@ document:
   repo: https://github.com/apoczekalewicz/instructlab-taxonomy
   commit: 4aeeeca56d92034cf9e7e56149f41d67b3fc8ebd
   patterns:
-    - mrbighacker/mrbighacker.md
+    - mrbighacker/mrbighacker.txt.md
