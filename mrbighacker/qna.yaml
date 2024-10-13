@@ -66,6 +66,6 @@ document_outline: |
   A biography of Mr. Big Hacker detailing his early life, hacking career, contributions to cybersecurity, and current endeavors.
 document:
   repo: https://github.com/apoczekalewicz/instructlab-taxonomy
-  commit: abcdef1234567890abcdef1234567890abcdef12
+  commit: 4aeeeca56d92034cf9e7e56149f41d67b3fc8ebd
   patterns:
     - mrbighacker/mrbighacker.md
