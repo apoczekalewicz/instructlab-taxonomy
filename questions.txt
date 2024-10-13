@@ -1,0 +1,8 @@
+1)
+in qna.yaml we don't mention Swanky
+
+Does the Mr Big Hacker know Swanky?
+
+2)
+qna.yaml: Joey is 20 years younger than Becky. In two years, Becky will be twice as old as Joey. What is their age now
+different: Joey is 20 years younger than Becky. In six years, Becky will be twice as old as Joey. What is their age now
