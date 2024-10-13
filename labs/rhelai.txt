@@ -1,0 +1,48 @@
+# init
+ilab system info
+ilab config init
+
+# download images
+MODELS="granite-7b-starter prometheus-8x7b-v2-0 mixtral-8x7b-instruct-v0-1 skills-adapter-v3 knowledge-adapter-v3 granite-7b-redhat-lab"
+
+podman login registry.redhat.io
+for MODEL in $MODELS 
+do
+ilab model download --repository docker://registry.redhat.io/rhelai1/$MODEL --release latest
+done
+
+
+# serve
+
+ilab model serve
+
+# chat
+
+ilab chat
+
+--
+
+# SDG
+
+ilab data geneate
+
+# train
+
+ilab model train
+
+#ilab model train --strategy lab-multiphase \
+#        --phased-phase1-data ~/.local/share/instructlab/datasets/<knowledge-train-messages-jsonl-file> \
+#        --phased-phase2-data ~/.local/share/instructlab/datasets/<skills-train-messages-jsonl-file> 
+
+
+# evaulate
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux_ai/1.1/html-single/creating_a_custom_llm_using_rhel_ai/index#evaluating_model
+
+
+# serve
+
+ilab model serve --model-path <path-to-best-performed-checkpoint>
+
+ilab model chat --model <path-to-best-performed-checkpoint-file>
+
+

@@ -1,0 +1,30 @@
+python -m venv venv
+
+. ./venv/bin/activate
+
+# install
+pip install git+https://github.com/instructlab/instructlab.git@v0.16.1
+
+# init
+ilab init
+#ilab download --repository instructlab/granite-7b-lab-GGUF --filename=granite-7b-lab-Q4_K_M.gguf
+
+# serve
+#ilab serve --model-path models/granite-7b-lab-Q4_K_M.gguf &
+ilab serve &
+
+# chat
+ilab chat
+
+# SDG
+./create.sh
+ilab diff
+ilab generate --num-instructions 1
+
+# training
+ilab train
+
+ilab test
+
+ilab chat --model ....
+
